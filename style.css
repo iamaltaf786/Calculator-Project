@@ -29,6 +29,10 @@ html, body {
   border-radius: 5px;
 }
 
+.input {
+  text-align: center;
+}
+
 .footer {
   text-align: center;
 }
