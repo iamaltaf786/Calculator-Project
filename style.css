@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&display=swap');
 
-html, body {
+body {
+  background-color: darkcyan;
   height: 100%;
   width: 100%;
-  font-family: 'Shalimar', cursive;
+}
 
+input::placeholder, button, body {
+  font-family: cursive;
+}
+
+input::placeholder {
+  font-size: large;
 }
 
 .button {
   padding: 20px;
   margin: 0px 3px;
   width: 78px;
-  border: 2px solid rgb(20, 196, 0);
+  border: 2px solid black;
   border-radius: 9px;
   color: rgb(0, 0, 0);
   background-color: rgb(255, 253, 253);
@@ -42,10 +49,5 @@ html, body {
 }
 
 .footer {
-  text-align: center;
-}
-
-.footer-game {
-  font-family: 'IBM Plex Sans', sans-serif;
   text-align: center;
 }
